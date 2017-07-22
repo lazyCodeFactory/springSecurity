@@ -69,8 +69,7 @@ public class LoginController {
 
  		String authority = "ROLE_USER";
 		Map<String, String> paramMap = new HashMap<String, String>();
-		System.out.println("xxxxxxxxxxxxxxxxxxxxxxxx");
-		paramMap.put("userid", id);
+ 		paramMap.put("userid", id);
 		paramMap.put("passwd", dbpw);
 		paramMap.put("name", name);
 		paramMap.put("nickname", nickname);
