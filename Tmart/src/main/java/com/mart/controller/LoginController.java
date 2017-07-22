@@ -66,8 +66,7 @@ public class LoginController {
 		String gender = request.getParameter("gender");
 		
 		String dbpw = encoder.saltEncoding(password, id);
-		System.out.println("Xxxxxxxxxxx");
- 		String authority = "ROLE_USER";
+  		String authority = "ROLE_USER";
 		Map<String, String> paramMap = new HashMap<String, String>();
  		paramMap.put("userid", id);
 		paramMap.put("passwd", dbpw);
