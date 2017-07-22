@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <jsp:include page="../commonLayout/commonInclude.jsp" flush="true" />
 <link rel="stylesheet" href="/resources/css/login/login.css">
-
+<script src="/resources/js/login/login.js"></script>
 </head>
 <body>
 	<div class="container body">
@@ -35,7 +35,15 @@
 									</div>
 								</div>
  								<div class="snsLogin">
-									<a href="#">페이스북 로그인 </a> <a href="#">네이버 로그인</a>
+ 									<div class="fb-login-button" data-width="100px" data-max-rows="1" data-size="medium" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="false" data-use-continue-as="false"></div>
+									 
+									 <div id="fb-root"></div>
+
+
+
+
+									
+									<a href="#">네이버 로그인</a>
 
 								</div>
 

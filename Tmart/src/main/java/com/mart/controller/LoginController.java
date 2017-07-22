@@ -39,8 +39,6 @@ public class LoginController {
 		model.setViewName("/login/login");
 		return model;
 	}
-	
-	
 
 	@RequestMapping(value = "/login")
 	public ModelAndView login(HttpSession session, ModelAndView model) {
