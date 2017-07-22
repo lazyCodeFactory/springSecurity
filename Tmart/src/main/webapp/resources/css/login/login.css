@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+.body{
+background-color:#ededed;
+}
+
+.loginform {
+	width: 100%;
+	background-color:white;
+	margin:0;
+}
+
+.filedbox {
+	overflow: hidden;
+ 	padding: 1em;
+}
+
+.field {
+ 	padding: 0px;  
+	border: none;
+
+}
+
+.field label {
+	padding-top: 12px;
+	padding-bottom: 23px;
+}
+
+.loginItem {
+	clear: both;
+}
+.headMessage{
+	padding-bottom: 30px;
+ 	font-family: 'Noto Sans KR', sans-serif;
+    font-size: 100%;
+    color: #333;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+
+.headMessage h2 {
+    margin: 0;
+    font-size: 45px;
+    color: #222;
+    font-weight: 400;
+}
+
+.inputClass {
+	height: 40px;
+	border: solid 1px #b2b2b2;
+	border-radius: 4px;
+	text-indent: 10px;
+	color: #666;
+	vertical-align: middle;
+	width: 250px;
+}
+
+.subbtn {
+	float:left;
+	margin:0px;
+	width: 140px;
+	min-width: 110px;
+	height: 90px;
+	line-height: 90px;
+	border-radius: 4px;
+ 	background-color: #f5ec26;
+	border: 0px;
+}
+
+.snsLogin {
+	width: 100%;
+	height: 50px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	background-color: green;
+}
+
+.btnArea {
+
+}

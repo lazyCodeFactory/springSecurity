@@ -1,0 +1,10 @@
+@charset "UTF-8";
+.form-group{
+	padding-top:30px;
+	padding-bottom:30px;
+	
+}
+.form-group input{
+	height: 47px;
+}
+
