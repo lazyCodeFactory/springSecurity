@@ -69,7 +69,7 @@ public class LoginController {
 
  		String authority = "ROLE_USER";
 		Map<String, String> paramMap = new HashMap<String, String>();
-
+		System.out.println("xxxxxxxxxxxxxxxxxxxxxxxx");
 		paramMap.put("userid", id);
 		paramMap.put("passwd", dbpw);
 		paramMap.put("name", name);
@@ -78,9 +78,8 @@ public class LoginController {
 		paramMap.put("tel", tel);
 		paramMap.put("gender", gender);
 		paramMap.put("authority", authority);
-		logger.info("paramMap >>>>>>>>>>>>>>>>>"+paramMap.toString());
- 		int result = dao.insertUser(paramMap);
-		return "/login/login";
+  		int result = dao.insertUser(paramMap);
+		return "/login/login"; 
 	}
 
  
